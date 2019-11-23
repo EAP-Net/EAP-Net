@@ -44,7 +44,7 @@ Enhanced attention with pose assistance for Person-Reid
 
 |DataSet | Rank@1 | Rank@5 | Rank@10 | mAP| Checkpoint|
 | -------- | ----- | ----- | ----- | ---- | ---- |
-| [Market-1501] | 95.8% | 98.6% | 99.1% | 90.1% |  [res50-market] |
-| [DukeMTMC-reid] | 90.8% | 0% | 0% | 81.7% | [res50-duke] |
+| [Market-1501] | 95.8% | 98.6% | 99.1% | 90.1% |  [Recently uploaded] |
+| [DukeMTMC-reid] | 90.8% | 0% | 0% | 81.7% | [Recently uploaded] |
 | [CUHK03-Lableled] | 87.4% | 0% | 0% | 82.8% | [res50-label] |
-| [CUHK03-Detected] | 83.7% | 0% | 0% | 79.8% | [res50-detect] |
+| [CUHK03-Detected] | 83.7% | 0% | 0% | 79.8% | [Recently uploaded] |
