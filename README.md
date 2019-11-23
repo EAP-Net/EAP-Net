@@ -25,7 +25,9 @@ Enhanced attention with pose assistance for Person-Reid
 
 3. Test command
   You can test our model's performance by running this command.
-  `python eval/test.py`
+  ```bash
+  python eval/test.py
+  ```
 
 ## Experiment Results
 1. EAP-net base on Res101
