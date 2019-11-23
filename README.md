@@ -24,7 +24,7 @@ Enhanced attention with pose assistance for Person-Reid
   Our model test parameters is saved at  `./configs/inference.yml`. You need to update your own test parameters to this file, for example`path to the checkpoint`, `dataset name`.
 
 3. Test command.  
-  You can test our model's performance by running this command.
+  You can test our model's performance by running this command.  
   ```bash
   python eval/test.py
   ```
