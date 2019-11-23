@@ -29,6 +29,9 @@ Enhanced attention with pose assistance for Person-Reid
   python eval/test.py
   ```
 
+4. DataSet prepared question
+  We use `./data/dataset/cuhk03.py` to divide the cuhk03 dataset into the labeled and detected. If you want to test our model, you should download the `.mat` file in this [project](https://github.com/zhunzhong07/person-re-ranking/tree/master/evaluation/data/CUHK03).
+
 ## Experiment Results
 1. EAP-net base on Res101
 
