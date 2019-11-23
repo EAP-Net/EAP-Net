@@ -24,13 +24,13 @@ class MSMT17(BaseImageDataset):
 
     def __init__(self,root='', verbose=True):
         super(MSMT17, self).__init__()
-        self.dataset_dir = osp.join(root, self.dataset_dir)
-        self.train_dir = osp.join(self.dataset_dir, 'MSMT17_V2/mask_train_v2')
-        self.test_dir = osp.join(self.dataset_dir, 'MSMT17_V2/mask_test_v2')
-        self.list_train_path = osp.join(self.dataset_dir, 'MSMT17_V2/list_train.txt')
-        self.list_val_path = osp.join(self.dataset_dir, 'MSMT17_V2/list_val.txt')
-        self.list_query_path = osp.join(self.dataset_dir, 'MSMT17_V2/list_query.txt')
-        self.list_gallery_path = osp.join(self.dataset_dir, 'MSMT17_V2/list_gallery.txt')
+        self.dataset_dir = root
+        self.train_dir = osp.join(self.dataset_dir, 'MSMT17_V1/train')
+        self.test_dir = osp.join(self.dataset_dir, 'MSMT17_V1/test')
+        self.list_train_path = osp.join(self.dataset_dir, 'MSMT17_V1/list_train.txt')
+        self.list_val_path = osp.join(self.dataset_dir, 'MSMT17_V1/list_val.txt')
+        self.list_query_path = osp.join(self.dataset_dir, 'MSMT17_V1/list_query.txt')
+        self.list_gallery_path = osp.join(self.dataset_dir, 'MSMT17_V1/list_gallery.txt')
 
         self._check_before_run()
         train = self._process_dir(self.train_dir, self.list_train_path)
