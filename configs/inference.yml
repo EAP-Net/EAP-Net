@@ -1,0 +1,55 @@
+MODEL:
+  # eap-net backbone
+  NAME: 'resnet50'
+
+
+INPUT:
+  SIZE_TRAIN: [384, 192]
+  SIZE_TEST: [384, 192]
+  PROB: 0.5
+  PADDING: 10
+
+DATASETS:
+#  NAMES: ('market1501')
+#  PATH: 'root_path/market1501'
+   NAMES: ('dukemtmc')
+   PATH: 'path to the dateset'
+#   NAMES: ('cuhk03')
+#   PATH: 'root_path/cuhk03'
+#   NAMES: ('msmt17')
+#   PATH: 'root_path/msmt17'
+
+DATALOADER:
+  SAMPLER: 'multiple_softmax_triplet'
+  NUM_INSTANCE: 4
+  NUM_WORKERS: 0
+
+SOLVER:
+  OPTIMIZER_NAME: 'Adam'
+  MAX_EPOCHS: 300
+  BASE_LR: 0.00038
+  BIAS_LR_FACTOR: 1
+  WEIGHT_DECAY: 0.0005
+  WEIGHT_DECAY_BIAS: 0.0005
+  IMS_PER_BATCH: 64
+
+  STEPS: [40, 70]
+  GAMMA: 0.1
+
+  WARMUP_FACTOR: 0.01
+  WARMUP_ITERS: 10
+  WARMUP_METHOD: 'linear'
+
+  CHECKPOINT_PERIOD: 20 
+  LOG_PERIOD: 100
+  EVAL_PERIOD: 40 
+
+TEST:
+  IMS_PER_BATCH: 256
+  WEIGHT: 'path to the checkpoint'
+
+# useless parameter
+OUTPUT_DIR: ""
+
+
+
