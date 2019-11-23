@@ -1,5 +1,5 @@
 # EAP-Net
-Enhanced attention with pose assistance for Person-Reid
+Enhanced Attention with Pose assistance for Person-reID
 
 ## Require
 - [pytorch 1.0.0+](https://pytorch.org/)
@@ -19,11 +19,11 @@ Enhanced attention with pose assistance for Person-Reid
 
 1. Prepare pretrained model.  
   
-    In this project, We only provide the checkpoints and test code for our model.The code for model training will be updated later.If you want to test our model, you need to download the model's checkpoints in advance.
+    In this project, We provide the checkpoints and test code for our model. The code for model training will be updated later.If you want to evaluate our model, you can download the checkpoints and run the test code on your machine.
 
 2. Change the config file.  
   
-    Our model test parameters is saved at  [`./configs/inference.yml`](https://github.com/EAP-Net/EAP-Net/blob/master/configs/inference.yml). You need to update your own test parameters to this file, for example`path to the checkpoint`, `dataset name`.
+    Our model test parameters is saved at  [`./configs/inference.yml`](https://github.com/EAP-Net/EAP-Net/blob/master/configs/inference.yml). You can update your own test parameters to this file, for example`path to the checkpoint`, `dataset name`.
 
 3. Test command.  
   
@@ -53,5 +53,5 @@ Enhanced attention with pose assistance for Person-Reid
 | -------- | ----- | ----- | ---- | ---- |
 | Market-1501 | 95.8% | 98.6% | 90.1% |  [Uploading soon] |
 | DukeMTMC-reid | 90.8% | 96.0 % | 81.7% | [Uploading soon] |
-| CUHK03-Lableled | 87.4% | 0% |82.8% | [google] |
-| CUHK03-Detected | 84.4% | 96.1% |80.0% | [google] |
+| CUHK03-Lableled | 87.4% | 97.7% |82.8% | [[google]](https://drive.google.com/file/d/1mdb5KGrT1zvcC17t6o4gxfWMEnJgiPh5/view?usp=sharing) |
+| CUHK03-Detected | 84.4% | 96.1% |80.0% | [[google]](https://drive.google.com/file/d/1wThu7RdCDlxJW6mN-RNJZzlTivDvdZck/view?usp=sharing) |
