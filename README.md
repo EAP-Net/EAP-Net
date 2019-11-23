@@ -18,19 +18,23 @@ Enhanced attention with pose assistance for Person-Reid
 ## Test
 
 1. Prepare pretrained model.  
-  In this project, We only provide the checkpoints and test code for our model.The code for model training will be updated later.If you want to test our model, you need to download the model's checkpoints in advance.
+  
+    In this project, We only provide the checkpoints and test code for our model.The code for model training will be updated later.If you want to test our model, you need to download the model's checkpoints in advance.
 
 2. Change the config file.  
-  Our model test parameters is saved at  `./configs/inference.yml`. You need to update your own test parameters to this file, for example`path to the checkpoint`, `dataset name`.
+  
+    Our model test parameters is saved at  `./configs/inference.yml`. You need to update your own test parameters to this file, for example`path to the checkpoint`, `dataset name`.
 
 3. Test command.  
-  You can test our model's performance by running this command.  
-  ```bash
-  python eval/test.py
-  ```
+  
+    You can test our model's performance by running this command.  
+    ```bash
+    python eval/test.py
+    ```
 
 4. DataSet prepared question.  
-  We use `./data/dataset/cuhk03.py` to divide the cuhk03 dataset into the labeled and detected. If you want to test our model, you should download the `.mat` file in this [project](https://github.com/zhunzhong07/person-re-ranking/tree/master/evaluation/data/CUHK03).
+  
+    We use `./data/dataset/cuhk03.py` to divide the cuhk03 dataset into the labeled and detected. If you want to test our model, you should download the `.mat` file in this [project](https://github.com/zhunzhong07/person-re-ranking/tree/master/evaluation/data/CUHK03).
 
 ## Experiment Results
 1. EAP-net base on Res101
