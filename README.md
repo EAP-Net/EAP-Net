@@ -41,17 +41,17 @@ Enhanced attention with pose assistance for Person-Reid
 
 |DataSet | Rank@1 | Rank@5 | Rank@10 | mAP| Checkpoint|
 | -------- | ----- | ----- | ----- | ---- | ---- |
-| [Market-1501] | 96.3% | 98.8% | 99.2% | 91.1% |  [[google]](https://drive.google.com/file/d/1KdOO0Onp20tJhRgtGBvHF6B60iqAfBzh/view?usp=sharing) |
-| [DukeMTMC-reid] | 91.0% | 96.0% | 0% | 83.0% | [[google]](https://drive.google.com/file/d/1Qc-QTtj_1c8dyZ6jUK0JWIVZ9U9VcXh9/view?usp=sharing) |
-| [CUHK03-Lableled] | 89.8% | 97.7% | 0% | 85.8% | [[google]](https://drive.google.com/file/d/1FY3FKA8E-GWwrzJdFb-7Pqv0ZRnRXuGS/view?usp=sharing) |
-| [CUHK03-Detected] | 87.0% | 96.8% | 0% | 82.5% | [[google]](https://drive.google.com/file/d/14cc1FQs4aYbb3e16j3Q2I-kHh_yjg7pY/view?usp=sharing) |
-| [MSMT17] | 86.4% | 0% | 0% | 65.9% | [[google]](https://drive.google.com/file/d/192JxOptm8wz2OJxjxmUK8DXFMLQ5MIE7/view?usp=sharing) |
+| Market-1501 | 96.3% | 98.8% | 99.2% | 91.1% |  [[google]](https://drive.google.com/file/d/1KdOO0Onp20tJhRgtGBvHF6B60iqAfBzh/view?usp=sharing) |
+| DukeMTMC-reid | 91.0% | 96.0% | 0% | 83.0% | [[google]](https://drive.google.com/file/d/1Qc-QTtj_1c8dyZ6jUK0JWIVZ9U9VcXh9/view?usp=sharing) |
+| CUHK03-Lableled | 89.8% | 97.7% | 0% | 85.8% | [[google]](https://drive.google.com/file/d/1FY3FKA8E-GWwrzJdFb-7Pqv0ZRnRXuGS/view?usp=sharing) |
+| CUHK03-Detected | 87.0% | 96.8% | 0% | 82.5% | [[google]](https://drive.google.com/file/d/14cc1FQs4aYbb3e16j3Q2I-kHh_yjg7pY/view?usp=sharing) |
+| MSMT17 | 86.4% | 0% | 0% | 65.9% | [[google]](https://drive.google.com/file/d/192JxOptm8wz2OJxjxmUK8DXFMLQ5MIE7/view?usp=sharing) |
 
 2. EAP-net base on Res50
 
 |DataSet | Rank@1 | Rank@5 | Rank@10 | mAP| Checkpoint|
 | -------- | ----- | ----- | ----- | ---- | ---- |
-| [Market-1501] | 95.8% | 98.6% | 99.1% | 90.1% |  [Uploading soon] |
-| [DukeMTMC-reid] | 90.8% | 0% | 0% | 81.7% | [Uploading soon] |
-| [CUHK03-Lableled] | 87.4% | 0% | 0% | 82.8% | [google] |
-| [CUHK03-Detected] | 83.7% | 0% | 0% | 79.8% | [google] |
+| Market-1501 | 95.8% | 98.6% | 99.1% | 90.1% |  [Uploading soon] |
+| DukeMTMC-reid | 90.8% | 0% | 0% | 81.7% | [Uploading soon] |
+| CUHK03-Lableled | 87.4% | 0% | 0% | 82.8% | [google] |
+| CUHK03-Detected | 83.7% | 0% | 0% | 79.8% | [google] |
