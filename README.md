@@ -34,10 +34,10 @@ Enhanced attention with pose assistance for Person-Reid
 
 |DataSet | Rank@1 | Rank@5 | Rank@10 | mAP| Checkpoint|
 | -------- | ----- | ----- | ----- | ---- | ---- |
-| [Market-1501] | 96.3% | 98.8% | 99.2% | 91.1% |  [res101-market] |
-| [DukeMTMC-reid] | 91.0% | 96.0% | 0% | 83.0% | [res101-duke] |
-| [CUHK03-Lableled] | 89.8% | 97.7% | 0% | 85.8% | [res101-label] |
-| [CUHK03-Detected] | 87.0% | 96.8% | 0% | 82.5% | [res101-detect] |
+| [Market-1501] | 96.3% | 98.8% | 99.2% | 91.1% |  [[google]](https://drive.google.com/file/d/1KdOO0Onp20tJhRgtGBvHF6B60iqAfBzh/view?usp=sharing) |
+| [DukeMTMC-reid] | 91.0% | 96.0% | 0% | 83.0% | [[google]](https://drive.google.com/file/d/1Qc-QTtj_1c8dyZ6jUK0JWIVZ9U9VcXh9/view?usp=sharing) |
+| [CUHK03-Lableled] | 89.8% | 97.7% | 0% | 85.8% | [[google]]((https://drive.google.com/file/d/1FY3FKA8E-GWwrzJdFb-7Pqv0ZRnRXuGS/view?usp=sharing)) |
+| [CUHK03-Detected] | 87.0% | 96.8% | 0% | 82.5% | [[google]](https://drive.google.com/file/d/14cc1FQs4aYbb3e16j3Q2I-kHh_yjg7pY/view?usp=sharing) |
 | [MSMT17] | 86.4% | 0% | 0% | 65.9% | [res101-msmt] |
 
 2. EAP-net base on Res50
