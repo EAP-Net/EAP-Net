@@ -31,8 +31,8 @@ Enhanced attention with pose assistance for Person-Reid
 1. EAP-net base on Res101
 |DataSet | Rank@1 | Rank@5 | Rank@10 | mAP| Checkpoint|
 | -------- | ----- | ----- | ----- | ---- | ---- |
-| [Market-1501] | 96.3% | - | - | - | 91.1% |  [res101-market] |
-| [DukeMTMC-reid] | 91.0% | - | - | - | 83.0% | [res101-duke] |
-| [CUHK03-Lableled] | 89.8% | - | - | - | 85.8% | [res101-label] |
-| [CUHK03-Detected] | 87.0% | - | - | - | 82.5% | [res101-detect] |
-| [MSMT17] | 86.4% | - | - | - | 65.9% | [res101-msmt] |
+| [Market-1501] | 96.3% | - | - | 91.1% |  [res101-market] |
+| [DukeMTMC-reid] | 91.0% | - | - | 83.0% | [res101-duke] |
+| [CUHK03-Lableled] | 89.8% | - | - | 85.8% | [res101-label] |
+| [CUHK03-Detected] | 87.0% | - | - | 82.5% | [res101-detect] |
+| [MSMT17] | 86.4% | - | - | 65.9% | [res101-msmt] |
