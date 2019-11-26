@@ -49,9 +49,16 @@ Enhanced Attention with Pose assistance for Person-reID
 
 2. EAP-net base on Res50
 
-|DataSet | Rank@1 | Rank@5 | mAP| Checkpoint|
-| -------- | ----- | ----- | ---- | ---- |
-| Market-1501 | 95.8% | 98.6% | 90.1% |  [Uploading soon] |
-| DukeMTMC-reid | 90.8% | 96.0 % | 81.7% | [Uploading soon] |
-| CUHK03-Lableled | 87.4% | 97.7% |82.8% | [[google]](https://drive.google.com/file/d/1mdb5KGrT1zvcC17t6o4gxfWMEnJgiPh5/view?usp=sharing) |
-| CUHK03-Detected | 84.4% | 96.1% |80.0% | [[google]](https://drive.google.com/file/d/1wThu7RdCDlxJW6mN-RNJZzlTivDvdZck/view?usp=sharing) |
+|DataSet | Rank@1 | Rank@5 | mAP| Checkpoint| Last updated|
+| -------- | ----- | ----- | ---- | ---- | ---- |
+| Market-1501 | 95.8% | 98.6% | 89.9% |  [[google]](https://drive.google.com/file/d/1UYHc2ZIB4oin4IxlHNOcl1_4z8K1GcnN/view?usp=sharing) | 26/11/2019 |
+| DukeMTMC-reid | 90.5% | 95.6 % | 81.7% | [[google]](https://drive.google.com/file/d/1MPB4sj8zW5MAIgSM07nZ_xpO_nupVunG/view?usp=sharing) | 26/11/2019 |
+| CUHK03-Lableled | 87.4% | 97.7% |82.8% | [[google]](https://drive.google.com/file/d/1mdb5KGrT1zvcC17t6o4gxfWMEnJgiPh5/view?usp=sharing) | 23/11/2019 |
+| CUHK03-Detected | 84.4% | 96.1% |80.0% | [[google]](https://drive.google.com/file/d/1wThu7RdCDlxJW6mN-RNJZzlTivDvdZck/view?usp=sharing) | 23/11/2019 |
+
+## EAP-Net's Attention
+The figure depicts the attention heat maps of global learning branch (GL), pose assistant branch (PA), enhanced pose assistant branch (EPA), PA+EPA and EAP-Net. Compared with PA, EPA enhances the attention on local points by feature drop. By integrating PA and EPA into GL, EAP-Net reduces the attention on clothes, special items or background.
+<img width="50%" src="https://github.com/EAP-Net/EAP-Net/blob/master/heatmap.png" />
+
+## Query result bewteen EAP-Net with global learning baseline
+<img width="50%" src="https://github.com/EAP-Net/EAP-Net/blob/master/query_results.png" />
