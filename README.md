@@ -59,9 +59,3 @@ The figure dipicts the retrieval results bewteen EAP-Net(the lower row) and glob
 | CUHK03-Lableled | 87.4% | 97.7% |82.8% | [[google]](https://drive.google.com/file/d/1mdb5KGrT1zvcC17t6o4gxfWMEnJgiPh5/view?usp=sharing) | 23/11/2019 |
 | CUHK03-Detected | 84.4% | 96.1% |80.0% | [[google]](https://drive.google.com/file/d/1wThu7RdCDlxJW6mN-RNJZzlTivDvdZck/view?usp=sharing) | 23/11/2019 |
 
-## EAP-Net's Attention
-The figure depicts the attention heat maps of global learning branch (GL), pose assistant branch (PA), enhanced pose assistant branch (EPA), PA+EPA and EAP-Net. Compared with PA, EPA enhances the attention on local points by feature drop. By integrating PA and EPA into GL, EAP-Net reduces the attention on clothes, special items or background.
-<img width="50%" src="https://github.com/EAP-Net/EAP-Net/blob/master/heatmap.png" />
-
-## Query result bewteen EAP-Net with global learning baseline
-<img width="50%" src="https://github.com/EAP-Net/EAP-Net/blob/master/query_results.png" />
