@@ -1,5 +1,8 @@
 # EAP-Net
-Enhanced Attention with Pose assistance for Person-reID
+Enhanced Attention with Pose assistance for Person-reID.
+
+The figure dipicts the retrieval results bewteen EAP-Net(the lower row) and global learning baseline(the upper row), more examples and EAP-Net's attention figures are exhibited in [`More Visual Results.md`](https://github.com/EAP-Net/EAP-Net/blob/master/More%20Visual%20Results.md).
+<p align="center"><img src="https://github.com/EAP-Net/EAP-Net/blob/master/query_result.png" /></p>
 
 ## Require
 - [pytorch 1.0.0+](https://pytorch.org/)
@@ -51,7 +54,7 @@ Enhanced Attention with Pose assistance for Person-reID
 
 |DataSet | Rank@1 | Rank@5 | mAP| Checkpoint| Last updated|
 | -------- | ----- | ----- | ---- | ---- | ---- |
-| Market-1501 | 95.8% | 98.6% | 89.9% |  [[google]](https://drive.google.com/file/d/1UYHc2ZIB4oin4IxlHNOcl1_4z8K1GcnN/view?usp=sharing) | 26/11/2019 |
+| Market-1501 | 95.7% | 98.5% | 90.0% |  [[google]](https://drive.google.com/file/d/1Ylh4rFtSEMuZ27b_M8Gn4KnACDVQq6wR/view?usp=sharing) | 26/11/2019 |
 | DukeMTMC-reid | 90.5% | 95.6 % | 81.7% | [[google]](https://drive.google.com/file/d/1MPB4sj8zW5MAIgSM07nZ_xpO_nupVunG/view?usp=sharing) | 26/11/2019 |
 | CUHK03-Lableled | 87.4% | 97.7% |82.8% | [[google]](https://drive.google.com/file/d/1mdb5KGrT1zvcC17t6o4gxfWMEnJgiPh5/view?usp=sharing) | 23/11/2019 |
 | CUHK03-Detected | 84.4% | 96.1% |80.0% | [[google]](https://drive.google.com/file/d/1wThu7RdCDlxJW6mN-RNJZzlTivDvdZck/view?usp=sharing) | 23/11/2019 |
