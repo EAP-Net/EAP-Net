@@ -133,9 +133,10 @@ class LBNNeck(nn.Module):
         if self.training:
             cl_feat = self.fc(test_feat)
             return cl_feat, triplet_feat
-        if self.data is 'cuhk03':
+        if self.data == 'cuhk03':
             return triplet_feat
-        return test_feat
+        else:
+            return test_feat
 
 
 class Baseline(nn.Module):
