@@ -56,6 +56,6 @@ The figure dipicts the retrieval results bewteen EAP-Net(the lower row) and glob
 | -------- | ----- | ----- | ---- | ---- | ---- | ---- |
 | Market-1501 | 95.7% | 98.5% |99.0% | 90.0% |  [[google]](https://drive.google.com/file/d/1Ylh4rFtSEMuZ27b_M8Gn4KnACDVQq6wR/view?usp=sharing) | 26/11/2019 |
 | DukeMTMC-reid | 90.8% | 95.8 % | 96.9 % | 82.0% | [[google]](https://drive.google.com/file/d/16QZBlRv2YOC5-u1U675pVx6GwGKQscAp/view?usp=sharing) | 29/11/2019 |
-| CUHK03-Lableled | 87.4% | 97.7% | 98.6% |82.8% | [[google]](https://drive.google.com/file/d/1mdb5KGrT1zvcC17t6o4gxfWMEnJgiPh5/view?usp=sharing) | 23/11/2019 |
-| CUHK03-Detected | 84.6% | 96.1% | 97.8% |80.1% | [[google]](https://drive.google.com/file/d/1wThu7RdCDlxJW6mN-RNJZzlTivDvdZck/view?usp=sharing) | 23/11/2019 |
+| CUHK03-Lableled | 87.9% | 97.8% | 98.6% |83.4% | [[google]](https://drive.google.com/file/d/1ZX4XhrDqLyWen8yykzeZmEcMkgLh9a9A/view?usp=sharing) | 01/12/2019 |
+| CUHK03-Detected | 85.2% | 96.5% | 98.0% |80.4% | [[google]](https://drive.google.com/file/d/1Vf97rFyi4zCk3xs8HWZ5LfzH-Jiub1PZ/view?usp=sharing) | 01/12/2019 |
 
