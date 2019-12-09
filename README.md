@@ -54,7 +54,7 @@ The figure dipicts the retrieval results bewteen EAP-Net(the lower row) and glob
 
 |DataSet | Rank@1 | Rank@5 | Rank@10 | mAP| Checkpoint| Last updated|
 | -------- | ----- | ----- | ---- | ---- | ---- | ---- |
-| Market-1501 | 95.9% | 98.3% |99.1% | 90.1% |  [[google]](https://drive.google.com/file/d/1ycVDFMiEissICOF_G4rEyYY3pgfUtDFm/view?usp=sharing) | 06/12/2019 |
+| Market-1501 | 95.8% | 98.7% |99.1% | 90.1% |  [[google]](https://drive.google.com/file/d/1Cs1kFayanwIQtJGR5xEgbLipXFRF_NWO/view?usp=sharing) | 09/12/2019 |
 | DukeMTMC-reid | 90.8% | 95.8 % | 96.9 % | 82.0% | [[google]](https://drive.google.com/file/d/16QZBlRv2YOC5-u1U675pVx6GwGKQscAp/view?usp=sharing) | 29/11/2019 |
 | CUHK03-Lableled | 87.9% | 97.8% | 98.6% |83.4% | [[google]](https://drive.google.com/file/d/1ZX4XhrDqLyWen8yykzeZmEcMkgLh9a9A/view?usp=sharing) | 01/12/2019 |
 | CUHK03-Detected | 85.2% | 96.5% | 98.0% |80.4% | [[google]](https://drive.google.com/file/d/1Vf97rFyi4zCk3xs8HWZ5LfzH-Jiub1PZ/view?usp=sharing) | 01/12/2019 |
